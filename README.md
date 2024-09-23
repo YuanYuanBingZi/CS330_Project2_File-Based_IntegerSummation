@@ -1,0 +1,2 @@
+# CS330_Project2_File-Based_Integer_Summation_in_C
+This project is a C-based program designed to read unsigned integers from two input files, calculate their sum, and store the results in an output file. The project demonstrates skills in dynamic memory allocation, file I/O operations, and handling large integer calculations. It emphasizes modular design, ensuring clarity and ease of maintenance. 
