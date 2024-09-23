@@ -33,7 +33,7 @@ The project includes test cases with the following files:
 To test the program, follow these steps:
 - Prepare the input files in the correct format.
 - Run the program as shown in the execution example.
-- Verify the generated output file by comparing it to file_3.txt.
+- Verify the generated output file by comparing it to `file_3.txt`.
 
 ## Future Plans
 
