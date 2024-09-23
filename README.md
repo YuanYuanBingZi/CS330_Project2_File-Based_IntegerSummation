@@ -18,11 +18,11 @@ gcc -std=c11 main.c -o sum_ints
 
 ## Function Descriptions
 
-- int get_num_ints(char** argv): Reads the number of integers in the input files.
-- void allocate_mem(unsigned int** input_one, unsigned int** input_two, unsigned long int** output, int num_ints): Dynamically allocates memory for input and output data.
-- void get_ints(char** argv, unsigned int* input_one, unsigned int* input_two, unsigned long int* output, int num_ints): Reads integers from the input files.
-- void sum_ints(unsigned int* input_one, unsigned int* input_two, unsigned long int* output, int num_ints): Adds two input arrays and stores the result in the output array.
-- void save_output(char** argv, unsigned int* input_one, unsigned int* input_two, unsigned long int* output, int num_ints): Saves the output data to the specified output file.
+- **`int get_num_ints(char** argv)`**: Reads the number of integers in the input files.
+- **`void allocate_mem(unsigned int** input_one, unsigned int** input_two, unsigned long int** output, int num_ints)`**: Dynamically allocates memory for input and output data.
+- **`void get_ints(char** argv, unsigned int* input_one, unsigned int* input_two, unsigned long int* output, int num_ints)`**: Reads integers from the input files.
+- **`void sum_ints(unsigned int* input_one, unsigned int* input_two, unsigned long int* output, int num_ints)`**: Adds two input arrays and stores the result in the output array.
+- **`void save_output(char** argv, unsigned int* input_one, unsigned int* input_two, unsigned long int* output, int num_ints)`**: Saves the output data to the specified output file.
 
 ## Testing Instructions
 The project includes test cases with the following files:
@@ -35,9 +35,7 @@ To test the program, follow these steps:
 - Run the program as shown in the execution example.
 - Verify the generated output file by comparing it to file_3.txt.
 
-明白了，这里是简化后的 **Future Plan**，包含三点最重要的未来发展计划：
-
-### Future Plans
+## Future Plans
 
 1. **Expand Operations**:
    - Add support for additional arithmetic operations like subtraction and multiplication. This will make the program more versatile and useful for various mathematical tasks.
