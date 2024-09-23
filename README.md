@@ -18,17 +18,17 @@ gcc -std=c11 main.c -o sum_ints
 
 ## Function Descriptions
 
-- **`int get_num_ints(char** argv)`**: Reads the number of integers in the input files.
-- **`void allocate_mem(unsigned int** input_one, unsigned int** input_two, unsigned long int** output, int num_ints)`**: Dynamically allocates memory for input and output data.
-- **`void get_ints(char** argv, unsigned int* input_one, unsigned int* input_two, unsigned long int* output, int num_ints)`**: Reads integers from the input files.
-- **`void sum_ints(unsigned int* input_one, unsigned int* input_two, unsigned long int* output, int num_ints)`**: Adds two input arrays and stores the result in the output array.
-- **`void save_output(char** argv, unsigned int* input_one, unsigned int* input_two, unsigned long int* output, int num_ints)`**: Saves the output data to the specified output file.
+- `int get_num_ints(char** argv)`: Reads the number of integers in the input files.
+- `void allocate_mem(unsigned int** input_one, unsigned int** input_two, unsigned long int** output, int num_ints)`: Dynamically allocates memory for input and output data.
+- `void get_ints(char** argv, unsigned int* input_one, unsigned int* input_two, unsigned long int* output, int num_ints)`: Reads integers from the input files.
+- `void sum_ints(unsigned int* input_one, unsigned int* input_two, unsigned long int* output, int num_ints)`: Adds two input arrays and stores the result in the output array.
+- `void save_output(char** argv, unsigned int* input_one, unsigned int* input_two, unsigned long int* output, int num_ints)`: Saves the output data to the specified output file.
 
 ## Testing Instructions
 The project includes test cases with the following files:
 
-- Input files: file_1.txt and file_2.txt
-- Output file: output.txt (You can compare this with the provided solution file file_3.txt)
+- Input files: `file_1.txt` and `file_2.txt`
+- Output file: `output.txt` (You can compare this with the provided solution file `file_3.txt`)
 
 To test the program, follow these steps:
 - Prepare the input files in the correct format.
@@ -37,11 +37,8 @@ To test the program, follow these steps:
 
 ## Future Plans
 
-1. **Expand Operations**:
-   - Add support for additional arithmetic operations like subtraction and multiplication. This will make the program more versatile and useful for various mathematical tasks.
+- **Expand Operations**: Add support for additional arithmetic operations like subtraction and multiplication. This will make the program more versatile and useful for various mathematical tasks.
 
-2. **Improve Error Handling**:
-   - Implement more detailed error handling and reporting to cover edge cases like invalid file formats or incorrect input data, ensuring the program is more robust and user-friendly.
+- **Improve Error Handling**: Implement more detailed error handling and reporting to cover edge cases like invalid file formats or incorrect input data, ensuring the program is more robust and user-friendly.
 
-3. **Add Unit Tests**:
-   - Develop a simple suite of automated unit tests to verify the correctness of each function. This will improve code reliability and make future updates easier to manage.
+- **Add Unit Tests**: Develop a simple suite of automated unit tests to verify the correctness of each function. This will improve code reliability and make future updates easier to manage.
